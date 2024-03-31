@@ -54,7 +54,6 @@ public class DeliveryFeeController {
             try {
                 String fee = feeCalculationService.calculateFeeBasedOnWeather(mapLocationToWmoCode(location), vehicleType);
                 return ResponseEntity.ok(fee);
-
             } catch (Exception e) {
                 return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Internal server error");
             }
