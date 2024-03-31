@@ -8,4 +8,6 @@
 7. Click GET -> Try it out
 8. Enter parameters
 
-Database available at http://localhost:8080/h2-console/
+Database available at localhost:8080/h2-console/
+
+Tests in test -> java -> DeliveryFeeApplicationTests
